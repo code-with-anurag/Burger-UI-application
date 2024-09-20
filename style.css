@@ -1,0 +1,171 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
+}
+.container{
+    height:auto;
+    width:100%;
+}
+.navbar{
+    height:80px;
+    width:100%;
+}
+.smallnav{
+    height:100%;
+    width:85%;
+    margin:auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.menu{
+    height:100%;
+    width:40%;
+    display:flex;
+    justify-content: start;
+    align-items: center;
+    font-family: "Concert One", sans-serif;
+    font-size:27px;
+}
+.product{
+    height:100%;
+    width:60%;
+    display:flex;
+    justify-content:end;
+    align-items: center;
+}
+.span-1{
+    height:40px;
+    width:20%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+     box-shadow:1px 4px 6px -5px black;
+}
+#all{
+    background-color:rgb(255, 241, 52);
+}
+#for{
+    background-color:rgb(250, 240, 242);
+}
+/* -----------navbar end--------------------- */
+
+.header{
+    height:60px;
+    width:100%;
+}
+.small-header{
+    height:100%;
+    width:85%;
+    margin:auto;
+}
+.list{
+    height:100%;
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    font-weight:600;
+    border-bottom: 1px solid rgb(182, 174, 174);
+}
+.list li{
+    height:100%;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+#burger{
+    color:red;
+    border-radius:2px 2px 2px 2px;
+    border-bottom:3px solid red;
+}
+.list li:hover{
+   color:red;
+}
+.icons{
+    display:none;
+}
+/* ---------------header end------------- */
+
+.main{
+    height:auto;
+    width:100%;
+    margin-top:33px;
+}
+.small-main{
+    height:auto;
+    width:85%;
+    margin:auto;
+    display:flex;
+}
+.left-part{
+    height:auto;
+    width:50%;
+    display:flex;
+    justify-content: space-around;
+    align-items: start;
+}
+.right-part{
+    height:auto;
+    width:50%;
+    display:flex;
+    justify-content: space-around; 
+    align-items: start;
+}
+.card{
+    height:270px;
+    width:45%;
+    background-color: rgb(252, 248, 245);
+    box-shadow:0px 2px 4px gray ;
+    flex-direction: column;
+    border-radius:10px;
+}
+.card:hover{
+   height:280;
+   width:47%;
+   transition:all 0.5s ease-out;
+   box-shadow:0px 10px 8px -2px gray;
+}
+.burger-img{
+    margin-top:10px;
+    height:150px;
+    width:80%;
+    margin-left:20px;
+    background-position: center;
+    background-size: cover;
+}
+.card p{
+    margin-top:10px;
+    color:rgb(88, 85, 85);
+    font-weight: 600;
+    margin-left:7px;
+}
+.shopping-icon{
+    margin-top:18px;
+    display:flex;
+    padding-inline:7px;
+    justify-content: space-between;
+}
+.icon-span{
+    margin-right:20px;
+}
+.dollar{
+    color:rgb(255, 102, 0);
+    font-weight: 600;
+}
+.main-2{
+    margin-bottom:18px;
+}
+#para1{
+    margin-top:35px;
+}
+#para3{
+    margin-top:35px;
+}
+
+/* -----------------main end----------------- */

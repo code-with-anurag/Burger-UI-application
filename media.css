@@ -1,0 +1,141 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+@media(max-width:1200px){
+    .smallnav{
+        width:90%;
+    }
+    .span-1{
+        width:25%;
+    }
+    .small-header{
+        width:90%;
+    }
+    .small-main{
+        width:90%;
+    }
+}
+@media(max-width:1080px){
+
+    .list{
+        display:none;
+    }
+    .icons{
+        height:100%;
+        width:100%;
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+       
+    }
+    .small-header{
+       border:1px solid rgb(231, 224, 224);
+    }
+    #burger-tag{
+        font-size:2.2rem;
+        color:red;
+        /* padding-left:30px; */
+    }
+    #bar-tag{
+        font-size: 1.5rem;
+    }
+    .icons{
+        padding-inline:30px;
+    }
+    
+    .fourth-burger{
+      display:none;
+    }
+    .left-part{
+        width:95%;
+    }
+    .right-part{
+        /* width:20%; */
+    }
+    .third-burger{
+        width:85%;
+        margin-right:20px;
+    }
+}
+
+
+@media(max-width:991px){
+    .span-1{
+        width:30%;
+    }
+}
+
+@media(max-width:768px){
+    .span-1{
+        width:35%;
+    }
+    .left-part{
+        width:100%;
+    }
+    .right-part{
+        width:100%;
+        padding-inline:7px;
+        margin-top:35px;
+    }
+    .fourth-burger{
+        display:inline;
+    }
+    .small-main{
+        flex-wrap:wrap;
+        display:flex;
+        flex-direction:column;
+
+    }
+    .third-burger{
+        width:47%;
+    }
+}
+
+@media(max-width:580px){
+    .smallnav{
+        width:97%;
+    }
+    .span-1{
+        width:45%;
+    }
+    .small-header{
+        width:97%;
+    }
+    .small-main{
+        width:95%
+    }
+    .left-part{
+      display:flex;
+      flex-direction:column;
+      width:100%;
+    }
+    .right-part{
+        display:flex;
+        flex-direction:column;
+        width:100%;
+        margin:0px;
+    }
+    .card{
+        width:90%;
+        height:300px;
+        margin:auto;
+        margin-top:25px;
+
+    }
+    .card p{
+        font-size:18px;
+    }
+    .card{
+        margin-bottom:10px;
+    }
+    .main-2{
+        margin:0px;
+    }
+}
+@media(max-width:430px){
+    .product{
+        width:80%;
+    }
+}
